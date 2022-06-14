@@ -1,0 +1,164 @@
+* {
+    margin: 5px auto;
+    font-family: Arial, sans-serif;
+    color: #312f2f;
+}
+
+body {
+    background-color: rgb(14, 13, 13);
+
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;  
+}
+
+
+p{
+    color:rgb(68, 68, 68);
+    text-decoration: italic;
+}
+
+.form label {    
+    text-align: left;
+}
+.bg-white {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.padding {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.max-width {
+    max-width: 800px;
+    width: 100%;
+}
+
+.max-width-login{
+    max-width: 400px;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.input {
+    padding: 8px;
+}
+
+.input[type="text"] {
+    outline: none;
+    border: 1px solid rgb(68, 67, 67);
+    max-width: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input[type="text"]:hover {
+    border: 1px solid #44adf3;
+}
+
+.input-login {
+    padding: 8px;
+}
+.input-login[type="text"] {
+    outline: none;
+    border: 1px solid rgb(68, 67, 67);
+    max-width: 30%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input-login[type="text"]:hover {
+    border: 1px solid #44adf3;
+}
+.button {
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    max-width: 15%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.button-lr {
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    max-width: 15%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.button:hover {
+    border: 1px solid rgb(58, 193, 255);
+    cursor: pointer;
+}
+
+.btn-remove {
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(224, 16, 16);
+    border-radius: 8px;
+}
+
+.btn-remove:disabled {
+    color: red;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #111;
+    border-radius: 8px;
+}
+
+.btn-remove:hover {
+    background-color: rgb(121, 8, 8);
+    cursor: pointer;
+}
+
+.table {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.table:nth-child(odd) {
+    border: none;
+    border-radius: 10px;
+}
+
+.table tbody td {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
